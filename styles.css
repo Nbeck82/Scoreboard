@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white
+
+  }
+  /* Styling content container */
+.container {
+    background-color: #0f5257;
+    width: 400px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+  }
+  /* Styling of the container for the Home Team */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  /* Styling for the point screens */
+.pointscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6d3f0;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    box-shadow: 1px 0.5px 3px black;
+    margin-bottom: 10px;
+
+  }
+#homescr {
+    color: #0b3142;
+    font-size: 24px;
+  }
+  /* Styling of the container for the guest team */
+.guest-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+#guestscr {
+    color: #0b3142;
+    font-size: 24px;
+  }
+
+  /* Button Styles */
+.points-btns {
+    margin: 5px;
+    padding: 2px;
+}
+#homereset, #guestreset {
+    margin: 10px;
+    background-color: rgb(222, 42, 42);
+    color: white;
+
+}
+/* Styling of the container for the Timer and Leader Board */
+.counter-container {
+    margin: 0;
+    padding: 0;
+    background-color: #0b3142;
+    width: 400px;
+    height: 215px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+#timer-box {
+    display: flex;
+    margin: 10px;
+    background-color: rgb(197, 148, 148);
+    width: 90px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#timer {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.timer-btns {
+    margin: 5px;
+    padding: 3px;
+  }
+#leaderboard {
+    display: flex;
+    padding: 2px;
+    width: 120px;
+    height: 50px;
+    background-color: #d6d3f0;
+    border-radius: 5px;
+    justify-content: center;
+  }
+

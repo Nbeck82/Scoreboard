@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-container">
+                <h3>HOME</h3>
+              <div class="pointscreen">
+                <p type="number" id="homescr"></p></div>
+              <div class="points-btns">
+                <button id="hinc-1" onclick="homePlusOne()">+1</button>
+                <button id="hinc-2" onclick="homePlusTwo()">+2</button>
+                <button id="hinc-3" onclick="homePlusThree()">+3</button>
+              </div>
+              <button id="homereset" onclick="resetHome()">Reset Home</button>
+            </div>
+            <div class="guest-container">
+                <h3>GUEST</h3>
+               <div class="pointscreen">
+                 <p id="guestscr"></p></div>
+                <div class="points-btns">
+                <button id="ginc-1" onclick="guestPlusOne()">+1</button>
+                <button id="ginc-2" onclick="guestPlusTwo()">+2</button>
+                <button id="ginc-3" onclick="guestPlusThree()">+3</button>
+              </div>
+                 <button id="guestreset" onclick="resetGuest()">Reset Guest</button>
+            </div>
+        </div>
+      <div class="counter-container">
+        <h3>Leader board</h3>
+        <div id="leaderboard">
+          <p id="leadersign"></p>
+        </div>
+        <div id="timer-box">
+        <h4 id="timer"></h4></div>
+         <div class="timer-btns">
+         <button onclick="startTimer()">Start Game</button>
+           <button onclick="resetTimer()">New Game</button></div>
+      </div>
+        <script src="counter.js"></script>
+    </body>
+</html>
