@@ -1,8 +1,8 @@
 // definition and initialization of variables
 let homeCount = 0; // set home count to initial 0
 let guestCount = 0; // set guest count to initial 0
-let homeLead = "Home is Leading"  // string for the home leader board
-let guestLead = "Away is Leading" // string for the guest leader board
+let homeLead = "Birds are Leading"  // string for the home leader board
+let guestLead = "Turtles are Leading" // string for the guest leader board
 
 // prints values to html elements
 document.getElementById("homescr").textContent = homeCount;
@@ -52,9 +52,9 @@ checkInterval = setInterval(function() {
   function finalResult() {
     if (document.getElementById("timer").textContent === "Game Over") {
         if (homeCount > guestCount) {
-            document.getElementById("leadersign").textContent = "Home Wins";
+            document.getElementById("leadersign").textContent = "Birds Wins";
           } else {
-            document.getElementById("leadersign").textContent = "Away Wins";
+            document.getElementById("leadersign").textContent = "Turtles Wins";
         }
 
     }
