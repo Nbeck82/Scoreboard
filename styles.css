@@ -62,11 +62,13 @@ h3 {
 .points-btns {
     margin: 5px;
     padding: 2px;
+    cursor: pointer;
 }
 #homereset, #guestreset {
     margin: 10px;
     background-color: rgb(222, 42, 42);
     color: white;
+    cursor: pointer;
 
 }
 /* Styling of the container for the Timer and Leader Board */
@@ -103,6 +105,7 @@ h3 {
 .timer-btns {
     margin: 5px;
     padding: 3px;
+    cursor: pointer;
   }
 #leaderboard {
     display: flex;

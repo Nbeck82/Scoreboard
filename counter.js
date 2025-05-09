@@ -16,6 +16,7 @@ let checkInterval = null; // sets interval for checking point to null
 // start timer function 
 function startTimer() {
   if (timer != null) return;
+  count = 60;
   document.getElementById("timer").textContent = count; 
   
   timer = setInterval(function() {
